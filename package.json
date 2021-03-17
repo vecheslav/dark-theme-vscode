@@ -1,0 +1,46 @@
+{
+  "name": "calibrated-dark-theme",
+  "displayName": "Calibrated Dark Theme",
+  "description": "A calibrated theme based on default dark plus theme, more contrasted.",
+  "version": "0.0.1",
+  "publisher": "vecheslav",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vecheslav/dark-theme-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/vecheslav/dark-theme-vscode/issues",
+    "email": "vecheslavdruzhbin@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "colors",
+    "dark"
+  ],
+  "homepage": "https://github.com/vecheslav/dark-theme-vscode",
+  "icon": "assets/logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Calibrated Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./calibrated-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node ./index.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "1.22.0",
+    "chroma-js": "^2.1.0"
+  }
+}
