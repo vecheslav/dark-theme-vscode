@@ -21,6 +21,7 @@ const getThemeColors = () => ({
   "sideBar.background": colors.bg1.hex(),
   "activityBar.background": colors.bg1.hex(),
   "activityBar.border": colors.border0.hex(),
+  "statusBar.background": colors.bg3.hex(),
   "editorGroup.dropBackground": colors.bg3.hex(),
   "list.dropBackground": colors.bg3.hex(),
   "list.hoverBackground": colors.bg3.hex(),

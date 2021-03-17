@@ -9,6 +9,7 @@
 		"sideBar.background": "#212122",
 		"activityBar.background": "#212122",
 		"activityBar.border": "#cccccc22",
+		"statusBar.background": "#303031",
 		"editorGroup.dropBackground": "#303031",
 		"list.dropBackground": "#303031",
 		"list.hoverBackground": "#303031",
