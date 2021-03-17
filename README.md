@@ -10,6 +10,10 @@ ext install calibrated-dark-theme
 
 Then go to `Preferences > Color Theme > Calibrated Dark Theme`.
 
+## Screenshots
+
+![Calibrated](assets/example.png)
+
 ## Development
 
 Install dependencies
