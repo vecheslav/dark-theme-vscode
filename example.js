@@ -4,6 +4,12 @@ const Button = props => {
   return <button className={className} {...other} />;
 };
 
+// Comment bla bla bla
+
+/**
+ * Hello, app!
+ * @returns Button sample
+ */
 const App = () => {
   return (
     <div>

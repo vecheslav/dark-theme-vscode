@@ -20,5 +20,44 @@
 		"input.background": "#373738",
 		"editorSuggestWidget.background": "#212122",
 		"editorSuggestWidget.border": "#cccccc22"
-	}
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#d8d8d9"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#d8d8d9"
+			}
+		},
+		{
+			"scope": [
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"string.comment"
+			],
+			"settings": {
+				"foreground": "#7a7a7d"
+			}
+		}
+	]
 }
